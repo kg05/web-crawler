@@ -45,7 +45,7 @@ This project is a web crawler that fetches product URLs from specified domains.
 
 The project uses the following Python libraries:
 
-- `requests`
+- `selenium`
 - `beautifulsoup4`
 
 Refer to `requirements.txt` for the complete list of dependencies.

@@ -1,0 +1,21 @@
+Web Crawler Overview
+
+Key Points:
+
+Programming Language: Python.
+
+Modular and Multithreaded Design: The code is structured to run processes concurrently, improving efficiency.
+
+Libraries Used: Selenium and BeautifulSoup for HTML extraction.
+
+------>
+
+Approach:
+
+Fetching HTML Pages: The crawler retrieves HTML content based on the configuration specified in config.json for each website.
+
+Extracting Product URLs: Using parallel processing, the crawler extracts product URLs from the <a> (href) tags in the HTML.
+
+Storing URLs: The extracted product URLs are saved into corresponding output files.
+
+Selenium for TataCliq: Selenium is specifically used for extracting data from the TataCliq website and for remaining ones using BeautifulSoup.
